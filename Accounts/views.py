@@ -7,4 +7,4 @@ def home(request):
 def products(request):
     return render(request,'Accounts/products.html')
 def customer(request):
-    return render(request,'Accounts/customer    .html')
+    return render(request,'Accounts/customer.html')
