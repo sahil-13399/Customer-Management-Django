@@ -26,7 +26,7 @@ SECRET_KEY = 'iof(+2-h74na4=th@(=ttj6=wj4&q!40^7=&zyuo#ux!a9+v*+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://crm-software-django.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = ['https://crm-software-django.herokuapp.com','127.0.0.1']
 
 
 # Application definition
