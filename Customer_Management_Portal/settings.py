@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Accounts.apps.AccountsConfig',
-    'django_filters'
+    'django_filters',
+      'storages',
 ]
 
 MIDDLEWARE = [
@@ -72,17 +73,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Customer_Management_Portal.wsgi.application'
 
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'demo_crm',
+        'USER':'postgres',
+        'PASSWORD':'sahil1303',
+        'HOST':'database-2.c208eaw20loj.us-east-2.rds.amazonaws.com',
+        'PORT':'5432'
+    }
+}
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -136,3 +146,14 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'blabla'
 EMAIL_HOST_PASSWORD = 'blabla'
+
+
+# AWS_ACCESS_KEY_ID = 'AKIA5IBNRD5EKUF5TQ2V '
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'sahilcrm'
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL = None
+# AWS_S3_HOST = "s3.ap-south-1.amazonaws.com"
+# AWS_S3_REGION_NAME = "ap-south-1"
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

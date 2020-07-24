@@ -33,7 +33,7 @@ def registerPage(request):
 		
 
 	context = {'form':form}
-	return render(request, 'accounts/register.html', context)
+	return render(request, 'Accounts/register.html', context)
 
 @unauthenticated_user
 def loginPage(request):
