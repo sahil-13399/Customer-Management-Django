@@ -30,7 +30,7 @@ decorator==4.4.0
 Django==2.2.14
 django-filter==2.3.0
 django-storages==1.9.1
-dlib==19.4.0
+#dlib==19.4.0
 docutils==0.15.2
 # editdistance==0.3.1
 # entrypoints==0.2.2
@@ -127,7 +127,7 @@ pygame==1.9.6
 # pyserial==3.4
 # pytesseract==0.2.6
 #python-apt==1.1.0b1+ubuntu0.16.4.9
-python-dateutil==2.6.0
+#python-dateutil==2.6.0
 #python-debian==0.1.27
 #python-systemd==231
 # pytz==2017.2
