@@ -18,6 +18,7 @@ from . import views
 
 
 urlpatterns = [
+      path('account/', views.accountSettings, name="account"),
     path('register/', views.registerPage, name="register"),
 	path('login/', views.loginPage, name="login"),  
 	path('logout/', views.logoutUser, name="logout"),
