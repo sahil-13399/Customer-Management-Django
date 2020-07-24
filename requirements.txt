@@ -19,7 +19,7 @@
 # cloudant==2.11.0
 # cloudpickle==0.8.0
 # colorlover==0.3.0
- command-not-found==0.3
+ #command-not-found==0.3
  cryptography==1.2.3
  cufflinks==0.17.0
 # cycler==0.10.0
