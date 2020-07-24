@@ -128,7 +128,7 @@ pygame==1.9.6
 # pytesseract==0.2.6
 #python-apt==1.1.0b1+ubuntu0.16.4.9
 python-dateutil==2.6.0
-python-debian==0.1.27
+#python-debian==0.1.27
 python-systemd==231
 # pytz==2017.2
 # PyWavelets==1.0.2
